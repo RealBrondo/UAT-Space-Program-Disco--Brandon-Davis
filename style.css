@@ -1,0 +1,107 @@
+/*
+Brandon Davis
+6/9/22
+CSC102
+*/
+
+* {box-sizing:border-box;}
+
+            /*Styling for the body*/
+            body {
+                font-family:calibri, sans-serif; 
+                background-image: url(space_background2.png); 
+                font-size:30px;
+                margin:0;
+                background-color: red;
+                animation-name: disco;
+                animation-duration: 10s;
+                animation-iteration-count:infinite;
+
+            }
+
+            /*Animates the background changing colors*/
+            @keyframes disco {
+                0%   {background-color: red;}
+                12%  {background-color: rgb(255, 123, 0);}
+                24%  {background-color: rgb(255, 238, 0);}
+                36% {background-color: rgb(0, 255, 234);}
+                48% {background-color: rgb(0, 26, 255);}
+                60% {background-color: rgb(132, 0, 255);}
+                72% {background-color: rgb(255, 0, 191);}
+                
+            }
+
+            /*Styling for all <div> under the wrapper class*/
+            .wrapper {
+                width:800px;
+				margin:auto;
+                margin-top:20px;
+                border-radius: 100px;
+                background-color: white;
+
+            }
+            /*Styling for UAT logo*/
+            #UAT_logo {
+                display: block;
+                margin:auto;
+
+            }
+            /*Styling for header 1*/
+            h1 {
+                font-family: Andale Mono, monospace;
+                text-align: center;
+                margin: 0;
+
+            }
+            /*Styling for main*/
+            main {
+                padding: 10px;
+            }
+            /*Styling for id:test_text*/
+            #test_text {
+                text-align: center;
+
+            }
+            /*Centering for blastoff button*/
+            #button {
+                text-align: center;
+                
+            }
+            /*Styling for button, including button size, text size, color*/
+            #button_style {
+                background-color: #403c3c;
+                color: white;
+                border-radius: 15px;
+                padding: 7px 20px;
+                font-size: 20px;
+                border: none;
+
+            }
+            /*Styling for the count down window*/
+            #countDownWindow {
+                width: 100%;
+				margin: auto;
+                margin-top:10px;
+                border-radius: 100px;
+                background-color: white;
+
+            }
+            /*Styling for the count down numbers*/
+            #countDownNumbers {
+                text-align: center;
+                font-family: impact, fantsy;
+                text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+                font-size: 70px;
+                margin: 0px;
+
+            }
+
+            /*Centers the music player*/
+            #music_player {
+                display: block;
+                margin: auto;
+                margin-top: 10px;
+
+            }
+
+    
